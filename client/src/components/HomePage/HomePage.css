@@ -1,0 +1,17 @@
+.searchbar {
+    width: 100%;
+    border: none;
+    background: transparent;
+    color: silver;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+::placeholder {
+    color: rgba(192, 192, 192, .7);
+}
+
+.searchbar:focus::placeholder {
+    color: transparent;
+}

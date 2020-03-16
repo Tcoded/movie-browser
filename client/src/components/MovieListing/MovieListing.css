@@ -1,0 +1,31 @@
+.movie-container {
+    display: flex;
+    background-color: #B21368;
+    color: rgba(240, 240, 240, 1);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.details h3 {
+    text-align: center;
+}
+
+.cast li {
+    list-style: none;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cast a {
+    color: #5F093D;
+    transition: color .3s ease;
+}
+
+.cast a:hover {
+    color: #D67BA8;
+}
+
+.details {
+    padding-left: 40px;
+}

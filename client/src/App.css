@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Lemon');
+
+.app {
+    width: 95vw;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.heading-container {
+    text-align: center;
+}
+
+.heading {
+    display: inline-block;
+    font-family: 'Lemon', sans-serif;
+}
+
+.heading a {
+    color: #B21368;
+    text-decoration: none;
+    transition: color .3s ease;
+}
+
+.heading a:hover {
+    color: #D67BA8;
+}
